@@ -19,7 +19,7 @@ public class ProxyChanger {
         count = -1 ;
         
         try{
-            FileReader f = new FileReader("ip_port.txt") ;
+            FileReader f = new FileReader("proxy_port.txt") ;
             BufferedReader bf = new BufferedReader(f) ;
             String str ;
             
